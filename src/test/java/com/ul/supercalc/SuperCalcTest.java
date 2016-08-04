@@ -16,4 +16,8 @@ public class SuperCalcTest {
         assertEquals(4, superCalc.plus(2, 2));
     }
 
+    @Test
+    public void testMinus() throws Exception {
+        assertEquals(0, superCalc.minus(2, 2));
+    }
 }
